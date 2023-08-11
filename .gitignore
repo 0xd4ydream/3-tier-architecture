@@ -1,0 +1,31 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Module directories
+.terraform/
+
+# Local tfvars files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Crash log files
+crash.log
+
+# Ignore all .tfvars files
+*.tfvars
+
+# Ignore Terraform lock file
+.terraform.lock.hcl
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Exclude CLI configuration files
+.terraformrc
+terraform.rc
